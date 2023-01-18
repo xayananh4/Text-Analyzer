@@ -12,7 +12,7 @@ function wordCounter(text) {
   });
   return wordCount;
 }
-
+// Business Logic
 function numberOfOccurrencesInText(word, text) {
   const textArray = text.split(" ");
   let wordCount = 0;

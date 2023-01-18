@@ -62,3 +62,11 @@ const text = "Red! Red. I like red, green, and yellow.";
 const word = "Red";
 numberOfOccurrencesInText(word, text);
 Expected Output: 3
+
+Describe: omitOffensiveWords()
+Test: "It should not allow these words zoinks, muppeteer, biffaroni, and loopdaloop"
+Code:
+const text = "Red! Red. I like red, green, and yellow.";
+const word = "Red";
+numberOfOccurrencesInText(word, text);
+Expected Output: 3
